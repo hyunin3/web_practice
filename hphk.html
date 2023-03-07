@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hphk</title>
+  <style>
+    #hphk > p:nth-of-type(2) {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="hphk">
+    <h2>어떻게 선택 될까?</h2>
+    <p>첫번째 단락</p>  <!-- p:nth-child(2) 일 때 파란색으로 바뀝니다. 형제들 사이 순서에 따라 요소 선택-->
+    <p>두번째 단락</p>  <!-- p:nth-of-type(2) 일 때 빨간색으로 바뀝니다. 자신의 유형과 일치하는 것 중 첫번째--> 
+    <p>세번째 단락</p>
+    <p>네번째 단락</p>
+  </div>
+</body>
+</html>
