@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>log_in</title>
+      <style>
+        h1 {
+          color: blue;
+          font-size: 40px;
+        }
+        h2 {
+          color: yellow;
+          font-size: 25px
+        }
+        h3 {
+          color: pink;
+          font-size: 15px
+        }
+      </style>
+      
+    </head>
+    <body>
+      <h1>Please write your personal information
+        <a href="https://www.blizzard.com/ko-kr/"><img class="fit-picture"
+        src="rip.png"
+        alt="Heros of the storm!"></a></h1>
+      <h2>We can use it anywhere</h2>
+      <h3>but you don't have to know it</h3>
+    </body>
+    <section>
+      <form action="#">
+        <div>
+          <label for="agrement">개인정보 수집 및 활용에 동의합니다.</label>
+          <input type="checkbox" name="agreement" id="'agreement">
+        </div>
+        <div>
+          <label for="name">please write your name</label><br>
+          <input type="text" id="name" autofocus>
+        </div>
+        <div>
+          <label for="region">please select your region</label><br/>
+          <select name="region" id="region" required>
+            <option value="서울">서울</option>
+            <option value="경기">경기</option>
+            <option value="강원">강원</option>
+            <option value="충청">충청</option>
+            <option value="전라">전라</option>
+            <option value="경상">경상</option>
+            <option value="제주">제주</option>
+          </select>
+        </div>
+        <div>
+          <label for="username">USERNAME</label><br>
+          <input type="text" id="username" autofocus><br>
+          <label for="password">PWD</label><br>
+          <input type="password" id="password" autofocus><br/> 
+        </div>
+        
+        <br><input type="submit" value="Thank you(제출)">
+      </form>
+    </section>
+  </html>
