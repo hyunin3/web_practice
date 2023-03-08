@@ -1,0 +1,11 @@
+td {
+  height: 100px;
+  width: 100px;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+.black {
+  background-color: black;
+  border-collapse: collapse;
+}

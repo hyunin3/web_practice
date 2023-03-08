@@ -63,6 +63,8 @@ p {
 /* 9-2. 날짜는 본문 제목의 오른쪽 끝에 위치합니다. */
 .card-body-title > p {
   text-align: end;
+  top: 10px;
+  position: absolute;
 }
 /* 10. 본문 내용의 상단 여백은 10px이며, border와 content 사이 간격은 10px 입니다. 배경 색상은 자유롭게 작성합니다. */
 .card-body-content {
