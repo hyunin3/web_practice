@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  border: 1px solid gray;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+.box1 {
+  background-color: rgb(223, 22, 48);
+  box-sizing: border-box;
+  color: aliceblue;
+  width: 400px;
+  height: 200;
+  text-align: start;
+  font-size: 15px;
+  font-style: normal;
+  margin: auto;
+  padding: 10px, 10px;
+}
+.box2 {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  color: black;
+  width: 400px;
+  height: 200px;
+  font-style: initial;
+  font-size: 30px;
+  margin: auto;
+}
+.sign_in {
+  text-align: center;
+  padding: 10px, 10px;
+}
+.blue_underline {
+  background-color: blue;
+  height: 1px;
+  width: 400px;
+}
+
+.item {
+  font: Arial;
+  color: black;
+  background-color: white;
+  width: 400px;
+  height: 200;
+}
+
